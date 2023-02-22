@@ -7,7 +7,6 @@
 // Scripts
 // 
 
-
 window.addEventListener('DOMContentLoaded', event => {
 
     // Activate Bootstrap scrollspy on the main nav element
@@ -34,21 +33,20 @@ window.addEventListener('DOMContentLoaded', event => {
 
 });
 
-//
-// ( greeting
+// (greeting
 const hour = new Date().getHours();
 let greeting;
 
 if (hour < 17) {
-    greeting = "Good day! Welcome to me page";
+    greeting = "Good day!";
 } else {
-    greeting = "Good evening! Welcome to me page";
+    greeting = "Good evening!";
 }
 document.getElementById("demo1").innerHTML = greeting;
-// greeting END 
+
 
 //send email
 function myFunction() {
     location.href = "mailto:someone@example.com";
 }
-//END send email
+
