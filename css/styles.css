@@ -60,12 +60,6 @@ body {
     text-align: center;
 }
 
-
-/*h1 {
-  font-size: 50px;
-  word-break: break-all;
-}*/
-
 .container-fluid {
     margin: 8px -16px;
 }
@@ -90,7 +84,6 @@ body {
 }
 
 /* Content */
-
 .container-fluid {
     background-color: transparent;
     padding: 5px;
@@ -98,7 +91,6 @@ body {
     color: black;
 }
 
-/*END MAIN */
 
 
 
@@ -177,9 +169,6 @@ form {
 }
 
 /* Floating column for labels: 25% width */
-/*END  contact   form  */
-
-
 /*
 .col-25 {
     float: left;
@@ -187,35 +176,27 @@ form {
     margin-top: 15px;
 */
 
-
-
-
-/*
 Floating column for inputs: 75% width .col-70 {
     float: left;
     width: 100%;
     margin-top: 0px;
 }
-*/
+
 
 /* Clear floats after the columns */
-/*
 .row:after {
     content: "";
     display: table;
     clear: both;
-}*/
+}
 
-
-/*<-- About section-->*/
+/*<-- About -->*/
 ul {
     font-size: 20px;
 }
 
-
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-
     .col-25,
     .col-75,
     input[type=submit] {
@@ -238,11 +219,6 @@ ul {
     }
 }
 
-
-
-/*-------------------------------------------------------------------------------------------------------------------------------------------
-
-/*      */
 :root {
     --bs-blue: #0d6efd;
     --bs-indigo: #6610f2;
@@ -4809,7 +4785,7 @@ fieldset:disabled .btn {
 .nav-justified .nav-item {
     flex-basis: 0;
     flex-grow: 1;
-    text-align: center;
+    text-align: right;
 }
 
 .nav-fill .nav-item .nav-link,
